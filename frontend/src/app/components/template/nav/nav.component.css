@@ -1,0 +1,14 @@
+.side-nav {
+    background: #3f51b5;
+    width: 200px;
+}
+
+.nav-list i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background: #fff;
+    color: #000;
+}

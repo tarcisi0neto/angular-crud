@@ -1,0 +1,11 @@
+.content {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.dev-by {
+    font-weight: 400;
+    font-size: 1rem;
+}
