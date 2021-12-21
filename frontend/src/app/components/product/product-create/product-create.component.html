@@ -1,1 +1,29 @@
-<p>product-create works!</p>
+<mat-card mat-elevation-z3>
+    <mat-card-title>Adicione um Novo Produto</mat-card-title>
+    <form class="form_container">
+        <mat-form-field  appearance="outline" class="input_container">
+            <mat-label>Nome do Produto</mat-label>
+            <input 
+                matInput
+                type="text"
+                [(ngModel)]="product.name"
+                name="name"
+                >
+        </mat-form-field>
+        <mat-form-field  appearance="outline" class="input_container">
+            <mat-label>Preço</mat-label>
+            <input 
+                matInput
+                [(ngModel)]="product.price"
+                name="price"
+                >
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createProduct()">
+        Salvar
+    </button>
+    <button mat-raised-button color="primary" (click)="cancel()">
+        Cancelar 
+    </button>
+</mat-card>
+

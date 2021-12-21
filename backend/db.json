@@ -1,19 +1,24 @@
 {
-    "products":[
-        {
-            "id":1,
-            "name": "Samsung A100",
-            "price":3845.78
-        },
-        {
-            "id":2,
-            "name": "Macbook Pro ",
-            "price":12000.90
-        },
-        {
-            "id":3,
-            "name": "Asus VivoBook",
-            "price":5600.45
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung A100",
+      "price": 3845.78
+    },
+    {
+      "id": 2,
+      "name": "Macbook Pro ",
+      "price": 12000.9
+    },
+    {
+      "id": 3,
+      "name": "Asus VivoBook",
+      "price": 5600.45
+    },
+    {
+      "name": "Fone Tws Xemal",
+      "price": "186.88",
+      "id": 4
+    }
+  ]
 }

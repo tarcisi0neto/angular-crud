@@ -1,0 +1,19 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input_container {
+    width: 25%;
+}
+
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #ffff !important;
+}
+    
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #ffff !important;
+}
